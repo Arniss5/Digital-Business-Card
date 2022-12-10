@@ -5,11 +5,11 @@ import twitter from './images/twitter.png'
 
 export function Footer() {
     return (
-        <div className="footer">
+        <footer>
             <img src={twitter} className="footer-icon" alt=''></img> 
             <img src={facebook} className="footer-icon" alt=''></img> 
             <img src={instagram} className="footer-icon" alt=''></img>
             <img src={github} className="footer-icon" alt=''></img> 
-        </div>
+        </footer>
     )
 }  
