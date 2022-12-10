@@ -1,10 +1,10 @@
 
 export function Interests() {
     return (
-        <div className="interests">
+        <div className="section">
             <h2>Interests</h2>
             <p className="info-text">
-            Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+            I love boardgames, puzzles and code. I watch tones of films and I score every one of them!
             </p>
         </div>
     )

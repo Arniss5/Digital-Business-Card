@@ -11,12 +11,12 @@ export function Info() {
             <p className="job-title">Frontend Developer</p>
             <p className='info-text'>github.com/Arniss5</p>
             <div className='btns-container'>
-                <button className='btn email'>
-                    <img src={email} className="icon"></img>
+                <button className='btn email-btn'>
+                    <img src={email} className="icon" alt=''></img>
                     Email
                 </button>
-                <button className='btn LinkedIn'>
-                    <img src={linkedin} className="icon"></img>
+                <button className='btn linkedin-btn'>
+                    <img src={linkedin} className="icon" alt=''></img>
                     LinkedIn
                 </button>
             </div>

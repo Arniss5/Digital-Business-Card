@@ -2,10 +2,10 @@
 
 export function About() {
     return (
-        <div className="about">
+        <div className="section">
             <h2>About</h2>
             <p className="info-text">
-                I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.
+                I am a frontend developer, skilled in JS and React. I am currently studying towards a degree in Computing and IT. My strength are: enthusiasm, passion for coding and weird patience for CSS. Check out my Github!
             </p>
         </div>
     )

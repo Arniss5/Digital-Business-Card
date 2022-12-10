@@ -6,10 +6,10 @@ import twitter from './images/twitter.png'
 export function Footer() {
     return (
         <div className="footer">
-            <img src={facebook} className="icon"></img> 
-            <img src={github} className="icon"></img> 
-            <img src={instagram} className="icon"></img> 
-            <img src={twitter} className="icon"></img> 
+            <img src={twitter} className="footer-icon" alt=''></img> 
+            <img src={facebook} className="footer-icon" alt=''></img> 
+            <img src={instagram} className="footer-icon" alt=''></img>
+            <img src={github} className="footer-icon" alt=''></img> 
         </div>
     )
-}
+}  

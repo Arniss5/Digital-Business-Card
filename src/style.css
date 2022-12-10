@@ -1,6 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #2B283A;
+    min-height: 100vh;
+    background-color: #23252C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    background: #F5F5F5;
+    width: 317px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.avatar {
+    width: 100%;
+    height: 317px;
+    object-fit: cover;
+    object-position: 100% -20px;
+    margin-bottom: 1.2em;
+}
+
+.container {
+    padding: 2em;
+}
+
+h1 {
+    font-size: 1.6rem;
     
 }
+
+h2 {
+    font-size: 1rem;
+    margin-bottom: .3em;
+}
+
+.info {
+    text-align: center;
+}
+
+.info-text {
+    font-size: .7rem;
+    color: #4A4E74;
+    line-height: 1rem;
+    margin-bottom: 1.1rem;
+}
+
+.job-title {
+    font-size: .9rem;
+    color: #F47D27;
+    margin-bottom: .5em;
+}
+
+.btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: .9rem;
+    color: #374151;
+    background-color: #FFF;
+    width: 115px;
+    height: 34px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+
+}
+
+.linkedin-btn {
+    color: #FFF;
+    background-color: #297FE5;
+    margin-left: 1em;
+    border: none;
+}
+
+.icon {
+    margin-right: .6rem;
+}
+
+
+.footer {
+    background-color: #D5D4D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 1.2em;
+}
+
+.footer-icon {
+    cursor: pointer;
+}
+
+.footer-icon:hover {
+    width: 180px;
+}
+
